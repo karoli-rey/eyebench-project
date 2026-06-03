@@ -1,0 +1,7 @@
+- +data=SBSAT_STD
+- data.fold_index=1
+- +trainer=TrainerDL
+- trainer.overwrite_data=True
+- trainer.run_mode=TRAIN
+- trainer.wandb_job_type=train
+- +model=AhnRNN

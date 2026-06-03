@@ -1,0 +1,9 @@
+- +data=SBSAT_STD
+- data.fold_index=0
+- +trainer=TrainerDL
+- trainer.overwrite_data=True
+- trainer.run_mode=TRAIN
+- trainer.wandb_job_type=train
+- +model=RoberteyeResidualGatedArgs
+- model.batch_size=2
+- model.accumulate_grad_batches=8

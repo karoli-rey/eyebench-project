@@ -1,0 +1,685 @@
+metric_type,metric_name,eval_type,data_task,model,eval_regime,fold,n_folds,fold_list,n_samples,n_unique_y_true,n_unique_y_pred,y_true_single,y_pred_single,y_true_distribution,y_pred_distribution,extra_classes_in_y_pred,score
+Regression,rmse,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,0,1,[0],48,4,1,False,True,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{1.3654074668884275: 48},,0.6593798727865875
+Regression,rmse,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,1,1,[1],47,4,2,False,False,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}","{0.9645035862922668: 41, 0.9645037651062012: 6}",,0.5767344376247081
+Regression,rmse,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,2,1,[2],47,4,2,False,False,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}","{1.2611908912658691: 46, 1.261189341545105: 1}",,0.775709976247802
+Regression,rmse,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,3,1,[3],48,4,2,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}","{1.1247262954711914: 42, 1.124726414680481: 6}",,0.6654319249987738
+Regression,rmse,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,0,1,[0],46,4,2,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}","{1.3654074668884275: 45, 1.3654060363769531: 1}",,0.6097590029907404
+Regression,rmse,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,1,1,[1],48,4,2,False,False,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}","{0.9645035862922668: 42, 0.9645037651062012: 6}",,0.9594949171479786
+Regression,rmse,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.2611908912658691: 48},,0.7007905755565578
+Regression,rmse,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,3,1,[3],48,4,3,False,False,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}","{1.1247262954711914: 44, 1.124726414680481: 3, 1.12472665309906: 1}",,0.6653633758321439
+Regression,rmse,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,0,1,[0],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{1.3654074668884275: 23},,0.7197931882853696
+Regression,rmse,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{0.9645035862922668: 24},,0.5217474683438974
+Regression,rmse,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.2611908912658691: 24},,0.5607944227536825
+Regression,rmse,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,3,1,[3],24,3,3,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}","{1.1247262954711914: 17, 1.124726414680481: 6, 1.12472665309906: 1}",,0.6333505647780251
+Regression,rmse,val,SBSAT_STD,AhnRNN,all,0,1,[0],117,4,2,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}","{1.3654074668884275: 116, 1.3654060363769531: 1}",,0.6529941328892924
+Regression,rmse,val,SBSAT_STD,AhnRNN,all,1,1,[1],119,4,2,False,False,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}","{0.9645035862922668: 107, 0.9645037651062012: 12}",,0.7467397859886163
+Regression,rmse,val,SBSAT_STD,AhnRNN,all,2,1,[2],119,4,2,False,False,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}","{1.2611908912658691: 118, 1.261189341545105: 1}",,0.7065244937313186
+Regression,rmse,val,SBSAT_STD,AhnRNN,all,3,1,[3],120,4,3,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}","{1.1247262954711914: 103, 1.124726414680481: 15, 1.12472665309906: 2}",,0.6591129000887912
+Regression,rmse,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,7,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{1.3654074668884275: 48, 1.2611908912658691: 46, 1.1247262954711914: 42, 0.9645035862922668: 41, 0.9645037651062012: 6, 1.124726414680481: 6, 1.261189341545105: 1}",,0.6729287654822134
+Regression,rmse,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,8,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.2611908912658691: 48, 1.3654074668884275: 45, 1.1247262954711914: 44, 0.9645035862922668: 42, 0.9645037651062012: 6, 1.124726414680481: 3, 1.3654060363769531: 1, 1.12472665309906: 1}",,0.7473338669742888
+Regression,rmse,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,6,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{0.9645035862922668: 24, 1.2611908912658691: 24, 1.3654074668884275: 23, 1.1247262954711914: 17, 1.124726414680481: 6, 1.12472665309906: 1}",,0.6123690082657463
+Regression,rmse,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,0,1,[0],71,4,1,False,True,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{1.3654074668884275: 71},,0.7554410153841622
+Regression,rmse,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,1,1,[1],71,4,3,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}","{0.9645035862922668: 66, 0.9645037651062012: 4, 0.9644960165023804: 1}",,0.8651977403293236
+Regression,rmse,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.2611908912658691: 71},,0.6041920985817898
+Regression,rmse,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,3,1,[3],72,4,4,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}","{1.1247262954711914: 55, 1.124726414680481: 15, 1.12472665309906: 1, 1.124726176261902: 1}",,0.8345338374630086
+Regression,rmse,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,0,1,[0],72,4,1,False,True,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{1.3654074668884275: 72},,0.7744943355843188
+Regression,rmse,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,1,1,[1],72,4,2,False,False,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}","{0.9645035862922668: 62, 0.9645037651062012: 10}",,0.7072405773570578
+Regression,rmse,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.2611908912658691: 72},,0.672410470707923
+Regression,rmse,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,3,1,[3],69,4,4,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}","{1.1247262954711914: 60, 1.124726414680481: 7, 1.12472665309906: 1, 1.124722599983215: 1}",,0.6350663803485966
+Regression,rmse,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.3654074668884275: 24},,0.7989641038303286
+Regression,rmse,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,1,1,[1],24,3,2,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}","{0.9645035862922668: 22, 0.9645037651062012: 2}",,0.5885791796037195
+Regression,rmse,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.2611908912658691: 24},,0.6117128916208721
+Regression,rmse,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,3,1,[3],23,3,3,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.1247262954711914: 20, 1.12472665309906: 2, 1.124726414680481: 1}",,0.8813935139755111
+Regression,rmse,test,SBSAT_STD,AhnRNN,all,0,1,[0],167,4,1,False,True,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{1.3654074668884275: 167},,0.7700528937071732
+Regression,rmse,test,SBSAT_STD,AhnRNN,all,1,1,[1],167,4,3,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}","{0.9645035862922668: 150, 0.9645037651062012: 16, 0.9644960165023804: 1}",,0.7639955712928322
+Regression,rmse,test,SBSAT_STD,AhnRNN,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.2611908912658691: 167},,0.6355384297226352
+Regression,rmse,test,SBSAT_STD,AhnRNN,all,3,1,[3],164,4,5,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}","{1.1247262954711914: 135, 1.124726414680481: 23, 1.12472665309906: 4, 1.124726176261902: 1, 1.124722599983215: 1}",,0.7644548535285677
+Regression,rmse,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,9,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.3654074668884275: 71, 1.2611908912658691: 71, 0.9645035862922668: 66, 1.1247262954711914: 55, 1.124726414680481: 15, 0.9645037651062012: 4, 0.9644960165023804: 1, 1.12472665309906: 1, 1.124726176261902: 1}",,0.7717146893090474
+Regression,rmse,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,8,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.3654074668884275: 72, 1.2611908912658691: 72, 0.9645035862922668: 62, 1.1247262954711914: 60, 0.9645037651062012: 10, 1.124726414680481: 7, 1.12472665309906: 1, 1.124722599983215: 1}",,0.6998354039633601
+Regression,rmse,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,7,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.3654074668884275: 24, 1.2611908912658691: 24, 0.9645035862922668: 22, 1.1247262954711914: 20, 0.9645037651062012: 2, 1.12472665309906: 2, 1.124726414680481: 1}",,0.7289699737411588
+Regression,rmse,val,SBSAT_STD,Roberta,seen_subject_unseen_item,0,1,[0],48,4,2,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}","{1.3837890625: 47, 1.384765625: 1}",,0.6558556204244003
+Regression,rmse,val,SBSAT_STD,Roberta,seen_subject_unseen_item,1,1,[1],47,4,1,False,True,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{1.220703125: 47},,0.6674467284676826
+Regression,rmse,val,SBSAT_STD,Roberta,seen_subject_unseen_item,2,1,[2],47,4,1,False,True,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{1.275390625: 47},,0.7732170441743511
+Regression,rmse,val,SBSAT_STD,Roberta,seen_subject_unseen_item,3,1,[3],48,4,2,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}","{1.1435546875: 44, 1.14453125: 4}",,0.6609774265599653
+Regression,rmse,val,SBSAT_STD,Roberta,unseen_subject_seen_item,0,1,[0],46,4,2,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}","{1.384765625: 44, 1.3837890625: 2}",,0.6141026040347047
+Regression,rmse,val,SBSAT_STD,Roberta,unseen_subject_seen_item,1,1,[1],48,4,1,False,True,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{1.220703125: 48},,0.8048794711848263
+Regression,rmse,val,SBSAT_STD,Roberta,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.275390625: 48},,0.7024256866717105
+Regression,rmse,val,SBSAT_STD,Roberta,unseen_subject_seen_item,3,1,[3],48,4,1,False,True,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{1.1435546875: 48},,0.6656219721144697
+Regression,rmse,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,0,1,[0],23,3,2,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.3837890625: 21, 1.384765625: 2}",,0.7092234457106402
+Regression,rmse,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.220703125: 24},,0.6849233720897292
+Regression,rmse,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.275390625: 24},,0.5633617440607979
+Regression,rmse,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,3,1,[3],24,3,2,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}","{1.1435546875: 22, 1.14453125: 2}",,0.628733546077749
+Regression,rmse,val,SBSAT_STD,Roberta,all,0,1,[0],117,4,2,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}","{1.3837890625: 70, 1.384765625: 47}",,0.6508613657586957
+Regression,rmse,val,SBSAT_STD,Roberta,all,1,1,[1],119,4,1,False,True,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{1.220703125: 119},,0.7292943994474644
+Regression,rmse,val,SBSAT_STD,Roberta,all,2,1,[2],119,4,1,False,True,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{1.275390625: 119},,0.7065120834557489
+Regression,rmse,val,SBSAT_STD,Roberta,all,3,1,[3],120,4,2,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}","{1.1435546875: 114, 1.14453125: 6}",,0.6565353620834572
+Regression,rmse,val,SBSAT_STD,Roberta,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,6,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{1.3837890625: 47, 1.220703125: 47, 1.275390625: 47, 1.1435546875: 44, 1.14453125: 4, 1.384765625: 1}",,0.6907480673940699
+Regression,rmse,val,SBSAT_STD,Roberta,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,5,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.220703125: 48, 1.1435546875: 48, 1.275390625: 48, 1.384765625: 44, 1.3837890625: 2}",,0.7011018112650057
+Regression,rmse,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,6,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.275390625: 24, 1.220703125: 24, 1.1435546875: 22, 1.3837890625: 21, 1.384765625: 2, 1.14453125: 2}",,0.6483355861152079
+Regression,rmse,test,SBSAT_STD,Roberta,seen_subject_unseen_item,0,1,[0],71,4,2,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}","{1.384765625: 70, 1.3837890625: 1}",,0.7688779615448925
+Regression,rmse,test,SBSAT_STD,Roberta,seen_subject_unseen_item,1,1,[1],71,4,2,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}","{1.220703125: 70, 1.2197265625: 1}",,0.7659950951760893
+Regression,rmse,test,SBSAT_STD,Roberta,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.275390625: 71},,0.6042082001717554
+Regression,rmse,test,SBSAT_STD,Roberta,seen_subject_unseen_item,3,1,[3],72,4,2,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}","{1.1435546875: 70, 1.14453125: 2}",,0.8236741551298493
+Regression,rmse,test,SBSAT_STD,Roberta,unseen_subject_seen_item,0,1,[0],72,4,2,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}","{1.384765625: 47, 1.3837890625: 25}",,0.7690877739235298
+Regression,rmse,test,SBSAT_STD,Roberta,unseen_subject_seen_item,1,1,[1],72,4,1,False,True,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{1.220703125: 72},,0.6746277712942392
+Regression,rmse,test,SBSAT_STD,Roberta,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.275390625: 72},,0.6733826274894217
+Regression,rmse,test,SBSAT_STD,Roberta,unseen_subject_seen_item,3,1,[3],69,4,2,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}","{1.1435546875: 68, 1.14453125: 1}",,0.6351570873464765
+Regression,rmse,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.384765625: 24},,0.8149588133345393
+Regression,rmse,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,1,1,[1],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.220703125: 24},,0.5554057025137261
+Regression,rmse,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.275390625: 24},,0.6111700241514009
+Regression,rmse,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,3,1,[3],23,3,2,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.1435546875: 22, 1.14453125: 1}",,0.8673884408884212
+Regression,rmse,test,SBSAT_STD,Roberta,all,0,1,[0],167,4,2,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}","{1.384765625: 141, 1.3837890625: 26}",,0.7757584922990415
+Regression,rmse,test,SBSAT_STD,Roberta,all,1,1,[1],167,4,2,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}","{1.220703125: 166, 1.2197265625: 1}",,0.7000059183032069
+Regression,rmse,test,SBSAT_STD,Roberta,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.275390625: 167},,0.635913539148226
+Regression,rmse,test,SBSAT_STD,Roberta,all,3,1,[3],164,4,2,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}","{1.1435546875: 160, 1.14453125: 4}",,0.7570330837102436
+Regression,rmse,test,SBSAT_STD,Roberta,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,7,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.275390625: 71, 1.220703125: 70, 1.384765625: 70, 1.1435546875: 70, 1.14453125: 2, 1.3837890625: 1, 1.2197265625: 1}",,0.7455125644794809
+Regression,rmse,test,SBSAT_STD,Roberta,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,6,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.275390625: 72, 1.220703125: 72, 1.1435546875: 68, 1.384765625: 47, 1.3837890625: 25, 1.14453125: 1}",,0.690387162259889
+Regression,rmse,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,5,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.384765625: 24, 1.220703125: 24, 1.275390625: 24, 1.1435546875: 22, 1.14453125: 1}",,0.7226576252431793
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,0,1,[0],48,4,2,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}","{1.443359375: 47, 1.4423828125: 1}",,0.6479635843132855
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,1,1,[1],47,4,1,False,True,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{1.1357421875: 47},,0.6273029994902087
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,2,1,[2],47,4,1,False,True,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{1.236328125: 47},,0.7806779300956035
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,3,1,[3],48,4,1,False,True,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{0.9365234375: 48},,0.7355659513452775
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,0,1,[0],46,4,2,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}","{1.443359375: 43, 1.4423828125: 3}",,0.6304864483356073
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,1,1,[1],48,4,1,False,True,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{1.1357421875: 48},,0.8507339226175744
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.236328125: 48},,0.6986138197347294
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,3,1,[3],48,4,1,False,True,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{0.9365234375: 48},,0.6915430195910807
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,0,1,[0],23,3,2,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.443359375: 20, 1.4423828125: 3}",,0.6775747669764712
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.1357421875: 24},,0.6239195067012131
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.236328125: 24},,0.5571429568186986
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,3,1,[3],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{0.9365234375: 24},,0.7066757404296659
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,all,0,1,[0],117,4,2,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}","{1.443359375: 110, 1.4423828125: 7}",,0.6471383829250074
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,all,1,1,[1],119,4,1,False,True,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{1.1357421875: 119},,0.7251627036185645
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,all,2,1,[2],119,4,1,False,True,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{1.236328125: 119},,0.7072331396070553
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,all,3,1,[3],120,4,1,False,True,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{0.9365234375: 120},,0.7124561229379788
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,5,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{0.9365234375: 48, 1.443359375: 47, 1.1357421875: 47, 1.236328125: 47, 1.4423828125: 1}",,0.7006137480517992
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,5,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.1357421875: 48, 0.9365234375: 48, 1.236328125: 48, 1.443359375: 43, 1.4423828125: 3}",,0.7233241400148733
+Regression,rmse,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,5,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.1357421875: 24, 0.9365234375: 24, 1.236328125: 24, 1.443359375: 20, 1.4423828125: 3}",,0.643487702792384
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,0,1,[0],71,4,2,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}","{1.443359375: 66, 1.4423828125: 5}",,0.8110497737926162
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,1,1,[1],71,4,1,False,True,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{1.1357421875: 71},,0.7911054395384254
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.236328125: 71},,0.6049671277216326
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,3,1,[3],72,4,1,False,True,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{0.9365234375: 72},,0.9565276120415592
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,0,1,[0],72,4,2,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}","{1.443359375: 65, 1.4423828125: 7}",,0.7548879623511585
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,1,1,[1],72,4,1,False,True,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{1.1357421875: 72},,0.6749215068625525
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.236328125: 72},,0.6714285222149812
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,3,1,[3],69,4,1,False,True,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{0.9365234375: 69},,0.6639866205882087
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.443359375: 24},,0.8642109141583382
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,1,1,[1],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.1357421875: 24},,0.5536351496854992
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.236328125: 24},,0.61345435289244
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,3,1,[3],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{0.9365234375: 23},,1.0295171842579747
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,all,0,1,[0],167,4,2,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}","{1.443359375: 155, 1.4423828125: 12}",,0.7954142350768605
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,all,1,1,[1],167,4,1,False,True,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{1.1357421875: 167},,0.7117022310761588
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.236328125: 167},,0.6356455137833993
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,all,3,1,[3],164,4,1,False,True,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{0.9365234375: 164},,0.8577994848164987
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,5,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{0.9365234375: 72, 1.236328125: 71, 1.1357421875: 71, 1.443359375: 66, 1.4423828125: 5}",,0.8013149597411591
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,5,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.1357421875: 72, 1.236328125: 72, 0.9365234375: 69, 1.443359375: 65, 1.4423828125: 7}",,0.6925831633217605
+Regression,rmse,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,4,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.443359375: 24, 1.1357421875: 24, 1.236328125: 24, 0.9365234375: 23}",,0.7859998431800124
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,0,1,[0],48,4,32,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{'N unique: 32'},,0.7031132591115014
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,1,1,[1],47,4,37,False,False,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{'N unique: 37'},,0.5980709177387095
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,2,1,[2],47,4,44,False,False,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{'N unique: 44'},,0.8109066287796763
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,3,1,[3],48,4,43,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{'N unique: 43'},,0.6443277827765661
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,0,1,[0],46,4,42,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}",{'N unique: 42'},,0.6101581724871682
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,1,1,[1],48,4,47,False,False,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{'N unique: 47'},,0.9338250691649432
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,2,1,[2],48,4,45,False,False,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{'N unique: 45'},,0.6059337061251245
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,3,1,[3],48,4,44,False,False,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{'N unique: 44'},,0.6229530391365669
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,0,1,[0],23,3,21,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 21'},,0.805402677048667
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,1,1,[1],24,2,20,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 20'},,0.5589549357448071
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,2,1,[2],24,3,22,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 22'},,0.7396839682297704
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,3,1,[3],24,3,19,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 19'},,0.6118276097275795
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,all,0,1,[0],117,4,87,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}",{'N unique: 87'},,0.6904392501173813
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,all,1,1,[1],119,4,86,False,False,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{'N unique: 86'},,0.745671622250841
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,all,2,1,[2],119,4,106,False,False,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{'N unique: 106'},,0.7198296822082831
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,all,3,1,[3],120,4,103,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{'N unique: 103'},,0.6294109286117401
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,156,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}",{'N unique: 156'},,0.6934825093937766
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,173,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}",{'N unique: 173'},,0.7079761266800966
+Regression,rmse,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,81,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 81'},,0.6846666055389733
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,0,1,[0],71,4,44,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{'N unique: 44'},,0.7067577333777881
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,1,1,[1],71,4,65,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{'N unique: 65'},,0.8943969918616604
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,2,1,[2],71,4,61,False,False,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{'N unique: 61'},,0.656206320134723
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,3,1,[3],72,4,57,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{'N unique: 57'},,0.877559611682733
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,0,1,[0],72,4,63,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{'N unique: 63'},,0.8055419829383477
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,1,1,[1],72,4,60,False,False,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{'N unique: 60'},,0.7046167138394658
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,2,1,[2],72,4,68,False,False,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{'N unique: 68'},,0.638079587346085
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,3,1,[3],69,4,64,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{'N unique: 64'},,0.6625200861576386
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,0,1,[0],24,2,18,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 18'},,0.7375760755795665
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,1,1,[1],24,3,21,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 21'},,0.6155011844861192
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,2,1,[2],24,3,23,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 23'},,0.6446733414436897
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,3,1,[3],23,3,22,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 22'},,0.9300785266775115
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,all,0,1,[0],167,4,99,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{'N unique: 99'},,0.7551898364592176
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,all,1,1,[1],167,4,137,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{'N unique: 137'},,0.7801246057138228
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,all,2,1,[2],167,4,141,False,False,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{'N unique: 141'},,0.6467886940910628
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,all,3,1,[3],164,4,134,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{'N unique: 134'},,0.8025508492209289
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,226,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 226'},,0.7909181573384472
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,239,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 239'},,0.7060351244624383
+Regression,rmse,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,84,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 84'},,0.7399800348233888
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,0,1,[0],48,4,48,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{'N unique: 48'},,0.7545084945243542
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,1,1,[1],47,4,47,False,False,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{'N unique: 47'},,0.6732789299274498
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,2,1,[2],47,4,47,False,False,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{'N unique: 47'},,0.9074923269068225
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,3,1,[3],48,4,48,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{'N unique: 48'},,0.7326547266243386
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,0,1,[0],46,4,46,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}",{'N unique: 46'},,0.6223401112738832
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,1,1,[1],48,4,48,False,False,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{'N unique: 48'},,0.8349943651837296
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,2,1,[2],48,4,48,False,False,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{'N unique: 48'},,0.725836680930623
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,3,1,[3],48,4,48,False,False,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{'N unique: 48'},,0.671300662761984
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],23,3,23,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 23'},,0.8800168912091753
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,2,24,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 24'},,0.6837424754341751
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,24,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 24'},,0.5735917915799831
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],24,3,24,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 24'},,0.6839981893040934
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,0,1,[0],117,4,117,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}",{'N unique: 117'},,0.7335291282337346
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,1,1,[1],119,4,119,False,False,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{'N unique: 119'},,0.7446828391584863
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,2,1,[2],119,4,119,False,False,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{'N unique: 119'},,0.7772551187483153
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,3,1,[3],120,4,120,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{'N unique: 120'},,0.6989575923488642
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,190,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}",{'N unique: 190'},,0.7715431233488963
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,190,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}",{'N unique: 190'},,0.7189234883135842
+Regression,rmse,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,95,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 95'},,0.7119775269957185
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,0,1,[0],71,4,71,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{'N unique: 71'},,0.6570868022892921
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,1,1,[1],71,4,71,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{'N unique: 71'},,0.7980395773644055
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,2,1,[2],71,4,71,False,False,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{'N unique: 71'},,0.7162347889448788
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,3,1,[3],72,4,72,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{'N unique: 72'},,0.9463416200716848
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,0,1,[0],72,4,72,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{'N unique: 72'},,0.8841260596769882
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,1,1,[1],72,4,72,False,False,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{'N unique: 72'},,0.6867663056322754
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,2,1,[2],72,4,72,False,False,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{'N unique: 72'},,0.6831834789846117
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,3,1,[3],69,4,69,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{'N unique: 69'},,0.6554438162596153
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],24,2,24,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 24'},,0.6027876471238667
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,3,24,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 24'},,0.6161272939169762
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,24,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 24'},,0.6884600459055153
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],23,3,23,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 23'},,1.0003421724807788
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,0,1,[0],167,4,167,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{'N unique: 167'},,0.7568312780955946
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,1,1,[1],167,4,167,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{'N unique: 167'},,0.7270930147112402
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,2,1,[2],167,4,167,False,False,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{'N unique: 167'},,0.6981719541803849
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,3,1,[3],164,4,164,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{'N unique: 164'},,0.8451406832852383
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,285,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 285'},,0.7875694236365751
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,285,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 285'},,0.733861797171941
+Regression,rmse,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,95,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 95'},,0.7414237741167815
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,0,1,[0],48,4,1,False,True,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{1.2604166269302368: 48},,0.6885251333961252
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,1,1,[1],47,4,1,False,True,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{1.4255318641662598: 47},,0.7938194585293669
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,2,1,[2],47,4,1,False,True,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{1.308510661125183: 47},,0.7683915196979382
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,3,1,[3],48,4,1,False,True,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{1.0520833730697632: 48},,0.687263202947965
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,0,1,[0],46,4,1,False,True,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}",{1.2604166269302368: 46},,0.596919772999434
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,1,1,[1],48,4,1,False,True,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{1.4255318641662598: 48},,0.7239907024354577
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.308510661125183: 48},,0.7073334881364569
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,3,1,[3],48,4,1,False,True,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{1.0520833730697632: 48},,0.6693468217719545
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{1.2604166269302368: 23},,0.7853215425901254
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.4255318641662598: 24},,0.8491000852968573
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.308510661125183: 24},,0.5706796599840432
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.0520833730697632: 24},,0.6562499854930505
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,all,0,1,[0],117,4,1,False,True,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}",{1.2604166269302368: 117},,0.6751410453237336
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,all,1,1,[1],119,4,1,False,True,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{1.4255318641662598: 119},,0.778277149990181
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,all,2,1,[2],119,4,1,False,True,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{1.308510661125183: 119},,0.7075914777295796
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,all,3,1,[3],120,4,1,False,True,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{1.0520833730697632: 120},,0.6739993767570788
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,4,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{1.2604166269302368: 48, 1.0520833730697632: 48, 1.4255318641662598: 47, 1.308510661125183: 47}",,0.7355416971495119
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,4,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.4255318641662598: 48, 1.308510661125183: 48, 1.0520833730697632: 48, 1.2604166269302368: 46}",,0.6769545176154032
+Regression,rmse,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,4,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.4255318641662598: 24, 1.308510661125183: 24, 1.0520833730697632: 24, 1.2604166269302368: 23}",,0.7228615272797658
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,0,1,[0],71,4,1,False,True,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{1.2604166269302368: 71},,0.6873521350106998
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,1,1,[1],71,4,1,False,True,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{1.4255318641662598: 71},,0.7428119865737698
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.308510661125183: 71},,0.6055412160432148
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,3,1,[3],72,4,1,False,True,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{1.0520833730697632: 72},,0.8788563904924982
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,0,1,[0],72,4,1,False,True,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{1.2604166269302368: 72},,0.8121215451406993
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,1,1,[1],72,4,1,False,True,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{1.4255318641662598: 72},,0.7166060244302045
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.308510661125183: 72},,0.6768035007584752
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,3,1,[3],69,4,1,False,True,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{1.0520833730697632: 69},,0.6398558946630277
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.2604166269302368: 24},,0.7151176024200684
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.4255318641662598: 24},,0.6103824588174688
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.308510661125183: 24},,0.6111854129789155
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{1.0520833730697632: 23},,0.9368631786734779
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,all,0,1,[0],167,4,1,False,True,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{1.2604166269302368: 167},,0.7474690930411177
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,all,1,1,[1],167,4,1,False,True,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{1.4255318641662598: 167},,0.7138115153015705
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.308510661125183: 167},,0.6380169912428915
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,all,3,1,[3],164,4,1,False,True,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{1.0520833730697632: 164},,0.7965207887567196
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,4,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.0520833730697632: 72, 1.2604166269302368: 71, 1.4255318641662598: 71, 1.308510661125183: 71}",,0.7359587912355401
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,4,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.2604166269302368: 72, 1.4255318641662598: 72, 1.308510661125183: 72, 1.0520833730697632: 69}",,0.7149798956598851
+Regression,rmse,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,4,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.2604166269302368: 24, 1.4255318641662598: 24, 1.308510661125183: 24, 1.0520833730697632: 23}",,0.7281380083647895
+Regression,mae,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,0,1,[0],48,4,1,False,True,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{1.3654074668884275: 48},,0.5833333333333334
+Regression,mae,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,1,1,[1],47,4,2,False,False,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}","{0.9645035862922668: 41, 0.9645037651062012: 6}",,0.31826388962725377
+Regression,mae,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,2,1,[2],47,4,2,False,False,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}","{1.2611908912658691: 46, 1.261189341545105: 1}",,0.6244833951300763
+Regression,mae,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,3,1,[3],48,4,2,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}","{1.1247262954711914: 42, 1.124726414680481: 6}",,0.49471184611320496
+Regression,mae,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,0,1,[0],46,4,2,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}","{1.3654074668884275: 45, 1.3654060363769531: 1}",,0.5284380601800006
+Regression,mae,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,1,1,[1],48,4,2,False,False,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}","{0.9645035862922668: 42, 0.9645037651062012: 6}",,0.7408716976642609
+Regression,mae,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.2611908912658691: 48},,0.5771132508913676
+Regression,mae,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,3,1,[3],48,4,3,False,False,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}","{1.1247262954711914: 44, 1.124726414680481: 3, 1.12472665309906: 1}",,0.4477570156256358
+Regression,mae,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,0,1,[0],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{1.3654074668884275: 23},,0.6396231651306152
+Regression,mae,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{0.9645035862922668: 24},,0.3064568390448888
+Regression,mae,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.2611908912658691: 24},,0.4639287789662679
+Regression,mae,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,3,1,[3],24,3,3,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}","{1.1247262954711914: 17, 1.124726414680481: 6, 1.12472665309906: 1}",,0.48951490223407745
+Regression,mae,val,SBSAT_STD,AhnRNN,all,0,1,[0],117,4,2,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}","{1.3654074668884275: 116, 1.3654060363769531: 1}",,0.5728160988571297
+Regression,mae,val,SBSAT_STD,AhnRNN,all,1,1,[1],119,4,2,False,False,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}","{0.9645035862922668: 107, 0.9645037651062012: 12}",,0.48634628939027547
+Regression,mae,val,SBSAT_STD,AhnRNN,all,2,1,[2],119,4,2,False,False,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}","{1.2611908912658691: 118, 1.261189341545105: 1}",,0.5729953471352073
+Regression,mae,val,SBSAT_STD,AhnRNN,all,3,1,[3],120,4,3,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}","{1.1247262954711914: 103, 1.124726414680481: 15, 1.12472665309906: 2}",,0.4748905251423518
+Regression,mae,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,7,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{1.3654074668884275: 48, 1.2611908912658691: 46, 1.1247262954711914: 42, 0.9645035862922668: 41, 0.9645037651062012: 6, 1.124726414680481: 6, 1.261189341545105: 1}",,0.5055541631422544
+Regression,mae,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,8,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.2611908912658691: 48, 1.3654074668884275: 45, 1.1247262954711914: 44, 0.9645035862922668: 42, 0.9645037651062012: 6, 1.124726414680481: 3, 1.3654060363769531: 1, 1.12472665309906: 1}",,0.5740198160472669
+Regression,mae,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,6,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{0.9645035862922668: 24, 1.2611908912658691: 24, 1.3654074668884275: 23, 1.1247262954711914: 17, 1.124726414680481: 6, 1.12472665309906: 1}",,0.4731467924619976
+Regression,mae,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,0,1,[0],71,4,1,False,True,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{1.3654074668884275: 71},,0.6200094424502949
+Regression,mae,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,1,1,[1],71,4,3,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}","{0.9645035862922668: 66, 0.9645037651062012: 4, 0.9644960165023804: 1}",,0.5797927900099419
+Regression,mae,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.2611908912658691: 71},,0.5004193279105174
+Regression,mae,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,3,1,[3],72,4,4,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}","{1.1247262954711914: 55, 1.124726414680481: 15, 1.12472665309906: 1, 1.124726176261902: 1}",,0.6736567368110021
+Regression,mae,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,0,1,[0],72,4,1,False,True,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{1.3654074668884275: 72},,0.6677325036790636
+Regression,mae,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,1,1,[1],72,4,2,False,False,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}","{0.9645035862922668: 62, 0.9645037651062012: 10}",,0.4839696072869831
+Regression,mae,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.2611908912658691: 72},,0.5327515072292752
+Regression,mae,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,3,1,[3],69,4,4,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}","{1.1247262954711914: 60, 1.124726414680481: 7, 1.12472665309906: 1, 1.124722599983215: 1}",,0.43281637585681415
+Regression,mae,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.3654074668884275: 24},,0.6570741335550941
+Regression,mae,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,1,1,[1],24,3,2,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}","{0.9645035862922668: 22, 0.9645037651062012: 2}",,0.36291366318861645
+Regression,mae,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.2611908912658691: 24},,0.5236310561498007
+Regression,mae,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,3,1,[3],23,3,3,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.1247262954711914: 20, 1.12472665309906: 2, 1.124726414680481: 1}",,0.7338027176649674
+Regression,mae,test,SBSAT_STD,AhnRNN,all,0,1,[0],167,4,1,False,True,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{1.3654074668884275: 167},,0.6459113166717712
+Regression,mae,test,SBSAT_STD,AhnRNN,all,1,1,[1],167,4,3,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}","{0.9645035862922668: 150, 0.9645037651062012: 16, 0.9644960165023804: 1}",,0.5073115433047631
+Regression,mae,test,SBSAT_STD,AhnRNN,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.2611908912658691: 167},,0.517694767363771
+Regression,mae,test,SBSAT_STD,AhnRNN,all,3,1,[3],164,4,5,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}","{1.1247262954711914: 135, 1.124726414680481: 23, 1.12472665309906: 4, 1.124726176261902: 1, 1.124722599983215: 1}",,0.5807626676268693
+Regression,mae,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,9,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.3654074668884275: 71, 1.2611908912658691: 71, 0.9645035862922668: 66, 1.1247262954711914: 55, 1.124726414680481: 15, 0.9645037651062012: 4, 0.9644960165023804: 1, 1.12472665309906: 1, 1.124726176261902: 1}",,0.5937509327604059
+Regression,mae,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,8,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.3654074668884275: 72, 1.2611908912658691: 72, 0.9645035862922668: 62, 1.1247262954711914: 60, 0.9645037651062012: 10, 1.124726414680481: 7, 1.12472665309906: 1, 1.124722599983215: 1}",,0.5303332998041521
+Regression,mae,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,7,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.3654074668884275: 24, 1.2611908912658691: 24, 0.9645035862922668: 22, 1.1247262954711914: 20, 0.9645037651062012: 2, 1.12472665309906: 2, 1.124726414680481: 1}",,0.5676243681656686
+Regression,mae,val,SBSAT_STD,Roberta,seen_subject_unseen_item,0,1,[0],48,4,2,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}","{1.3837890625: 47, 1.384765625: 1}",,0.58331298828125
+Regression,mae,val,SBSAT_STD,Roberta,seen_subject_unseen_item,1,1,[1],47,4,1,False,True,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{1.220703125: 47},,0.4904005984042553
+Regression,mae,val,SBSAT_STD,Roberta,seen_subject_unseen_item,2,1,[2],47,4,1,False,True,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{1.275390625: 47},,0.627202460106383
+Regression,mae,val,SBSAT_STD,Roberta,seen_subject_unseen_item,3,1,[3],48,4,2,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}","{1.1435546875: 44, 1.14453125: 4}",,0.5002848307291666
+Regression,mae,val,SBSAT_STD,Roberta,unseen_subject_seen_item,0,1,[0],46,4,2,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}","{1.384765625: 44, 1.3837890625: 2}",,0.5368970788043478
+Regression,mae,val,SBSAT_STD,Roberta,unseen_subject_seen_item,1,1,[1],48,4,1,False,True,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{1.220703125: 48},,0.6715494791666666
+Regression,mae,val,SBSAT_STD,Roberta,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.275390625: 48},,0.5824381510416666
+Regression,mae,val,SBSAT_STD,Roberta,unseen_subject_seen_item,3,1,[3],48,4,1,False,True,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{1.1435546875: 48},,0.458740234375
+Regression,mae,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,0,1,[0],23,3,2,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.3837890625: 21, 1.384765625: 2}",,0.6323454483695652
+Regression,mae,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.220703125: 24},,0.5123697916666666
+Regression,mae,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.275390625: 24},,0.4710286458333333
+Regression,mae,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,3,1,[3],24,3,2,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}","{1.1435546875: 22, 1.14453125: 2}",,0.4943033854166667
+Regression,mae,val,SBSAT_STD,Roberta,all,0,1,[0],117,4,2,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}","{1.3837890625: 70, 1.384765625: 47}",,0.5747028579059829
+Regression,mae,val,SBSAT_STD,Roberta,all,1,1,[1],119,4,1,False,True,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{1.220703125: 119},,0.5678998161764706
+Regression,mae,val,SBSAT_STD,Roberta,all,2,1,[2],119,4,1,False,True,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{1.275390625: 119},,0.5776490283613446
+Regression,mae,val,SBSAT_STD,Roberta,all,3,1,[3],120,4,2,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}","{1.1435546875: 114, 1.14453125: 6}",,0.482470703125
+Regression,mae,val,SBSAT_STD,Roberta,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,6,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{1.3837890625: 47, 1.220703125: 47, 1.275390625: 47, 1.1435546875: 44, 1.14453125: 4, 1.384765625: 1}",,0.5502107319078947
+Regression,mae,val,SBSAT_STD,Roberta,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,5,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.220703125: 48, 1.1435546875: 48, 1.275390625: 48, 1.384765625: 44, 1.3837890625: 2}",,0.5626747532894737
+Regression,mae,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,6,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.275390625: 24, 1.220703125: 24, 1.1435546875: 22, 1.3837890625: 21, 1.384765625: 2, 1.14453125: 2}",,0.5264083059210526
+Regression,mae,test,SBSAT_STD,Roberta,seen_subject_unseen_item,0,1,[0],71,4,2,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}","{1.384765625: 70, 1.3837890625: 1}",,0.6371726452464789
+Regression,mae,test,SBSAT_STD,Roberta,seen_subject_unseen_item,1,1,[1],71,4,2,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}","{1.220703125: 70, 1.2197265625: 1}",,0.5959369498239436
+Regression,mae,test,SBSAT_STD,Roberta,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.275390625: 71},,0.5054192341549296
+Regression,mae,test,SBSAT_STD,Roberta,seen_subject_unseen_item,3,1,[3],72,4,2,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}","{1.1435546875: 70, 1.14453125: 2}",,0.6704915364583334
+Regression,mae,test,SBSAT_STD,Roberta,unseen_subject_seen_item,0,1,[0],72,4,2,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}","{1.384765625: 47, 1.3837890625: 25}",,0.6657036675347222
+Regression,mae,test,SBSAT_STD,Roberta,unseen_subject_seen_item,1,1,[1],72,4,1,False,True,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{1.220703125: 72},,0.5441623263888888
+Regression,mae,test,SBSAT_STD,Roberta,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.275390625: 72},,0.5390625
+Regression,mae,test,SBSAT_STD,Roberta,unseen_subject_seen_item,3,1,[3],69,4,2,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}","{1.1435546875: 68, 1.14453125: 1}",,0.44344429347826086
+Regression,mae,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.384765625: 24},,0.6764322916666666
+Regression,mae,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,1,1,[1],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.220703125: 24},,0.4436848958333333
+Regression,mae,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.275390625: 24},,0.5271809895833334
+Regression,mae,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,3,1,[3],23,3,2,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.1435546875: 22, 1.14453125: 1}",,0.7263926630434783
+Regression,mae,test,SBSAT_STD,Roberta,all,0,1,[0],167,4,2,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}","{1.384765625: 141, 1.3837890625: 26}",,0.6551155501497006
+Regression,mae,test,SBSAT_STD,Roberta,all,1,1,[1],167,4,2,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}","{1.220703125: 166, 1.2197265625: 1}",,0.5517344217814372
+Regression,mae,test,SBSAT_STD,Roberta,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.275390625: 167},,0.5230515531437125
+Regression,mae,test,SBSAT_STD,Roberta,all,3,1,[3],164,4,2,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}","{1.1435546875: 160, 1.14453125: 4}",,0.5828053544207317
+Regression,mae,test,SBSAT_STD,Roberta,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,7,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.275390625: 71, 1.220703125: 70, 1.384765625: 70, 1.1435546875: 70, 1.14453125: 2, 1.3837890625: 1, 1.2197265625: 1}",,0.6024945175438596
+Regression,mae,test,SBSAT_STD,Roberta,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,6,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.275390625: 72, 1.220703125: 72, 1.1435546875: 68, 1.384765625: 47, 1.3837890625: 25, 1.14453125: 1}",,0.549194764254386
+Regression,mae,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,5,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.384765625: 24, 1.220703125: 24, 1.275390625: 24, 1.1435546875: 22, 1.14453125: 1}",,0.5920230263157895
+Regression,mae,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,0,1,[0],48,4,2,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}","{1.443359375: 47, 1.4423828125: 1}",,0.58331298828125
+Regression,mae,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,1,1,[1],47,4,1,False,True,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{1.1357421875: 47},,0.4162857380319149
+Regression,mae,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,2,1,[2],47,4,1,False,True,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{1.236328125: 47},,0.6197224069148937
+Regression,mae,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,3,1,[3],48,4,1,False,True,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{0.9365234375: 48},,0.51123046875
+Regression,mae,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,0,1,[0],46,4,2,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}","{1.443359375: 43, 1.4423828125: 3}",,0.5622664741847826
+Regression,mae,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,1,1,[1],48,4,1,False,True,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{1.1357421875: 48},,0.6857096354166666
+Regression,mae,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.236328125: 48},,0.5677897135416666
+Regression,mae,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,3,1,[3],48,4,1,False,True,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{0.9365234375: 48},,0.422607421875
+Regression,mae,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,0,1,[0],23,3,2,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.443359375: 20, 1.4423828125: 3}",,0.6090777853260869
+Regression,mae,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.1357421875: 24},,0.4274088541666667
+Regression,mae,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.236328125: 24},,0.4514973958333333
+Regression,mae,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,3,1,[3],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{0.9365234375: 24},,0.51123046875
+Regression,mae,val,SBSAT_STD,RoberteyeWord,all,0,1,[0],117,4,2,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}","{1.443359375: 110, 1.4423828125: 7}",,0.5801031650641025
+Regression,mae,val,SBSAT_STD,RoberteyeWord,all,1,1,[1],119,4,1,False,True,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{1.1357421875: 119},,0.5272042410714286
+Regression,mae,val,SBSAT_STD,RoberteyeWord,all,2,1,[2],119,4,1,False,True,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{1.236328125: 119},,0.5648470325630253
+Regression,mae,val,SBSAT_STD,RoberteyeWord,all,3,1,[3],120,4,1,False,True,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{0.9365234375: 120},,0.47578125
+Regression,mae,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,5,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{0.9365234375: 48, 1.443359375: 47, 1.1357421875: 47, 1.236328125: 47, 1.4423828125: 1}",,0.5327919407894737
+Regression,mae,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,5,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.1357421875: 48, 0.9365234375: 48, 1.236328125: 48, 1.443359375: 43, 1.4423828125: 3}",,0.5595651726973684
+Regression,mae,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,5,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.1357421875: 24, 0.9365234375: 24, 1.236328125: 24, 1.443359375: 20, 1.4423828125: 3}",,0.4986533717105263
+Regression,mae,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,0,1,[0],71,4,2,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}","{1.443359375: 66, 1.4423828125: 5}",,0.6891092649647887
+Regression,mae,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,1,1,[1],71,4,1,False,True,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{1.1357421875: 71},,0.577973701584507
+Regression,mae,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.236328125: 71},,0.4916648327464789
+Regression,mae,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,3,1,[3],72,4,1,False,True,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{0.9365234375: 72},,0.7526312934027778
+Regression,mae,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,0,1,[0],72,4,2,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}","{1.443359375: 65, 1.4423828125: 7}",,0.6590847439236112
+Regression,mae,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,1,1,[1],72,4,1,False,True,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{1.1357421875: 72},,0.5111219618055556
+Regression,mae,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.236328125: 72},,0.5217013888888888
+Regression,mae,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,3,1,[3],69,4,1,False,True,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{0.9365234375: 69},,0.4110762001811594
+Regression,mae,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.443359375: 24},,0.7350260416666666
+Regression,mae,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,1,1,[1],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.1357421875: 24},,0.4012044270833333
+Regression,mae,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.236328125: 24},,0.5174153645833334
+Regression,mae,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,3,1,[3],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{0.9365234375: 23},,0.846085258152174
+Regression,mae,test,SBSAT_STD,RoberteyeWord,all,0,1,[0],167,4,2,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}","{1.443359375: 155, 1.4423828125: 12}",,0.682763379491018
+Regression,mae,test,SBSAT_STD,RoberteyeWord,all,1,1,[1],167,4,1,False,True,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{1.1357421875: 167},,0.5237474270209581
+Regression,mae,test,SBSAT_STD,RoberteyeWord,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.236328125: 167},,0.5083154004491018
+Regression,mae,test,SBSAT_STD,RoberteyeWord,all,3,1,[3],164,4,1,False,True,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{0.9365234375: 164},,0.6220345846036586
+Regression,mae,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,5,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{0.9365234375: 72, 1.236328125: 71, 1.1357421875: 71, 1.443359375: 66, 1.4423828125: 5}",,0.6282826206140351
+Regression,mae,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,5,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.1357421875: 72, 1.236328125: 72, 0.9365234375: 69, 1.443359375: 65, 1.4423828125: 7}",,0.526953125
+Regression,mae,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,4,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.443359375: 24, 1.1357421875: 24, 1.236328125: 24, 0.9365234375: 23}",,0.6226048519736842
+Regression,mae,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,0,1,[0],48,4,32,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{'N unique: 32'},,0.5796101888020834
+Regression,mae,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,1,1,[1],47,4,37,False,False,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{'N unique: 37'},,0.3390126329787234
+Regression,mae,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,2,1,[2],47,4,44,False,False,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{'N unique: 44'},,0.6976811835106383
+Regression,mae,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,3,1,[3],48,4,43,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{'N unique: 43'},,0.5597127278645834
+Regression,mae,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,0,1,[0],46,4,42,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}",{'N unique: 42'},,0.5250721807065217
+Regression,mae,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,1,1,[1],48,4,47,False,False,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{'N unique: 47'},,0.7465108235677084
+Regression,mae,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,2,1,[2],48,4,45,False,False,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{'N unique: 45'},,0.463836669921875
+Regression,mae,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,3,1,[3],48,4,44,False,False,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{'N unique: 44'},,0.465789794921875
+Regression,mae,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,0,1,[0],23,3,21,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 21'},,0.6907693614130435
+Regression,mae,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,1,1,[1],24,2,20,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 20'},,0.3413899739583333
+Regression,mae,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,2,1,[2],24,3,22,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 22'},,0.6639404296875
+Regression,mae,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,3,1,[3],24,3,19,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 19'},,0.5430908203125
+Regression,mae,val,SBSAT_STD,RoberteyeLate,all,0,1,[0],117,4,87,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}",{'N unique: 87'},,0.5800196981837606
+Regression,mae,val,SBSAT_STD,RoberteyeLate,all,1,1,[1],119,4,86,False,False,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{'N unique: 86'},,0.5038611147584033
+Regression,mae,val,SBSAT_STD,RoberteyeLate,all,2,1,[2],119,4,106,False,False,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{'N unique: 106'},,0.5965524881827731
+Regression,mae,val,SBSAT_STD,RoberteyeLate,all,3,1,[3],120,4,103,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{'N unique: 103'},,0.5188191731770834
+Regression,mae,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,156,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}",{'N unique: 156'},,0.544274259868421
+Regression,mae,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,173,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}",{'N unique: 173'},,0.5505679481907895
+Regression,mae,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,81,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 81'},,0.5584189967105263
+Regression,mae,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,0,1,[0],71,4,44,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{'N unique: 44'},,0.5541235695422535
+Regression,mae,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,1,1,[1],71,4,65,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{'N unique: 65'},,0.6233357174295775
+Regression,mae,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,2,1,[2],71,4,61,False,False,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{'N unique: 61'},,0.5954830545774648
+Regression,mae,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,3,1,[3],72,4,57,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{'N unique: 57'},,0.6774224175347222
+Regression,mae,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,0,1,[0],72,4,63,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{'N unique: 63'},,0.6857367621527778
+Regression,mae,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,1,1,[1],72,4,60,False,False,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{'N unique: 60'},,0.50762939453125
+Regression,mae,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,2,1,[2],72,4,68,False,False,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{'N unique: 68'},,0.505859375
+Regression,mae,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,3,1,[3],69,4,64,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{'N unique: 64'},,0.5138204823369565
+Regression,mae,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,0,1,[0],24,2,18,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 18'},,0.5873616536458334
+Regression,mae,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,1,1,[1],24,3,21,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 21'},,0.4126993815104167
+Regression,mae,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,2,1,[2],24,3,23,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 23'},,0.58056640625
+Regression,mae,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,3,1,[3],23,3,22,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 22'},,0.7562839673913043
+Regression,mae,test,SBSAT_STD,RoberteyeLate,all,0,1,[0],167,4,99,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{'N unique: 99'},,0.6156437125748503
+Regression,mae,test,SBSAT_STD,RoberteyeLate,all,1,1,[1],167,4,137,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{'N unique: 137'},,0.5431792664670658
+Regression,mae,test,SBSAT_STD,RoberteyeLate,all,2,1,[2],167,4,141,False,False,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{'N unique: 141'},,0.5546991953592815
+Regression,mae,test,SBSAT_STD,RoberteyeLate,all,3,1,[3],164,4,134,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{'N unique: 134'},,0.6196497475228658
+Regression,mae,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,226,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 226'},,0.6128186677631579
+Regression,mae,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,239,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 239'},,0.5536766721491229
+Regression,mae,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,84,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 84'},,0.5824167351973685
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,0,1,[0],48,4,48,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{'N unique: 48'},,0.5796477994424011
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,1,1,[1],47,4,47,False,False,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{'N unique: 47'},,0.4973780354584332
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,2,1,[2],47,4,47,False,False,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{'N unique: 47'},,0.6567018439524387
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,3,1,[3],48,4,48,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{'N unique: 48'},,0.5203034982640692
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,0,1,[0],46,4,46,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}",{'N unique: 46'},,0.40747244688438505
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,1,1,[1],48,4,48,False,False,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{'N unique: 48'},,0.6698774168920582
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,2,1,[2],48,4,48,False,False,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{'N unique: 48'},,0.5868186661184467
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,3,1,[3],48,4,48,False,False,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{'N unique: 48'},,0.409520712044362
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],23,3,23,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 23'},,0.7283093571820668
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,2,24,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 24'},,0.49817045185681225
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,24,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 24'},,0.3861620098320557
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],24,3,24,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 24'},,0.4940316828241815
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,0,1,[0],117,4,117,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}",{'N unique: 117'},,0.5411789926932008
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,1,1,[1],119,4,119,False,False,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{'N unique: 119'},,0.5671174329573837
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,2,1,[2],119,4,119,False,False,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{'N unique: 119'},,0.5739510157598269
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,3,1,[3],120,4,120,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{'N unique: 120'},,0.47073602068820874
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,190,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}",{'N unique: 190'},,0.5633653506432713
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,190,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}",{'N unique: 190'},,0.5195902037858702
+Regression,mae,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,95,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 95'},,0.5245458387736919
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,0,1,[0],71,4,71,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{'N unique: 71'},,0.4253288356932184
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,1,1,[1],71,4,71,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{'N unique: 71'},,0.5757909743024963
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,2,1,[2],71,4,71,False,False,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{'N unique: 71'},,0.5555507259753846
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,3,1,[3],72,4,72,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{'N unique: 72'},,0.743864616660433
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,0,1,[0],72,4,72,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{'N unique: 72'},,0.6906888587433825
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,1,1,[1],72,4,72,False,False,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{'N unique: 72'},,0.5629729574569388
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,2,1,[2],72,4,72,False,False,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{'N unique: 72'},,0.5038762782678803
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,3,1,[3],69,4,69,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{'N unique: 69'},,0.4054812901019755
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],24,2,24,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 24'},,0.38954695036687975
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,3,24,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 24'},,0.43457326438901706
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,24,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 24'},,0.5476242605040081
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],23,3,23,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 23'},,0.8368862370934235
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,0,1,[0],167,4,167,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{'N unique: 167'},,0.534593245344594
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,1,1,[1],167,4,167,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{'N unique: 167'},,0.5499698829803188
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,2,1,[2],167,4,167,False,False,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{'N unique: 167'},,0.5321327894109933
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,3,1,[3],164,4,164,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{'N unique: 164'},,0.6145417370105867
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,285,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 285'},,0.5757258261526288
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,285,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 285'},,0.5421787783113923
+Regression,mae,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,95,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 95'},,0.5491605353619629
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,0,1,[0],48,4,1,False,True,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{1.2604166269302368: 48},,0.5833333333333334
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,1,1,[1],47,4,1,False,True,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{1.4255318641662598: 47},,0.6690809878897159
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,2,1,[2],47,4,1,False,True,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{1.308510661125183: 47},,0.6335445946835457
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,3,1,[3],48,4,1,False,True,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{1.0520833730697632: 48},,0.4735243171453476
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,0,1,[0],46,4,1,False,True,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}",{1.2604166269302368: 46},,0.48278983779575513
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,1,1,[1],48,4,1,False,True,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{1.4255318641662598: 48},,0.63741135597229
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.308510661125183: 48},,0.5948581645886103
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,3,1,[3],48,4,1,False,True,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{1.0520833730697632: 48},,0.4053819676240285
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{1.2604166269302368: 23},,0.6807065372881682
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.4255318641662598: 24},,0.7171985308329264
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.308510661125183: 24},,0.48758866389592487
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.0520833730697632: 24},,0.4713541766007741
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,all,0,1,[0],117,4,1,False,True,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}",{1.2604166269302368: 117},,0.5629451529592531
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,all,1,1,[1],119,4,1,False,True,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{1.4255318641662598: 119},,0.6660110609872001
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,all,2,1,[2],119,4,1,False,True,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{1.308510661125183: 119},,0.5885034939822029
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,all,3,1,[3],120,4,1,False,True,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{1.0520833730697632: 120},,0.4458333492279053
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,4,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{1.2604166269302368: 48, 1.0520833730697632: 48, 1.4255318641662598: 47, 1.308510661125183: 47}",,0.5892240505469473
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,4,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.4255318641662598: 48, 1.308510661125183: 48, 1.0520833730697632: 48, 1.2604166269302368: 46}",,0.5306084419551649
+Regression,mae,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,4,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.4255318641662598: 24, 1.308510661125183: 24, 1.0520833730697632: 24, 1.2604166269302368: 23}",,0.5882488765214618
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,0,1,[0],71,4,1,False,True,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{1.2604166269302368: 71},,0.5268485562902101
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,1,1,[1],71,4,1,False,True,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{1.4255318641662598: 71},,0.6391968727111816
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.308510661125183: 71},,0.5170812187060504
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,3,1,[3],72,4,1,False,True,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{1.0520833730697632: 72},,0.6857638822661506
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,0,1,[0],72,4,1,False,True,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{1.2604166269302368: 72},,0.679398152563307
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,1,1,[1],72,4,1,False,True,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{1.4255318641662598: 72},,0.6238179471757677
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.308510661125183: 72},,0.5537825160556369
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,3,1,[3],69,4,1,False,True,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{1.0520833730697632: 69},,0.39175726883653283
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.2604166269302368: 24},,0.5520832935969034
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.4255318641662598: 24},,0.5460992654164633
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.308510661125183: 24},,0.5354609986146291
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{1.0520833730697632: 23},,0.7622282453205275
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,all,0,1,[0],167,4,1,False,True,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{1.2604166269302368: 167},,0.5962449911825671
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,all,1,1,[1],167,4,1,False,True,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{1.4255318641662598: 167},,0.6191871408930796
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.308510661125183: 167},,0.5355459380292606
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,all,3,1,[3],164,4,1,False,True,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{1.0520833730697632: 164},,0.572789638507657
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,4,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.0520833730697632: 72, 1.2604166269302368: 71, 1.4255318641662598: 71, 1.308510661125183: 71}",,0.5925508474048815
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,4,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.2604166269302368: 72, 1.4255318641662598: 72, 1.308510661125183: 72, 1.0520833730697632: 69}",,0.5639829890769824
+Regression,mae,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,4,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.2604166269302368: 24, 1.4255318641662598: 24, 1.308510661125183: 24, 1.0520833730697632: 23}",,0.5972494213204634
+Regression,r2,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,0,1,[0],48,4,1,False,True,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{1.3654074668884275: 48},,-0.04347635992653531
+Regression,r2,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,1,1,[1],47,4,2,False,False,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}","{0.9645035862922668: 41, 0.9645037651062012: 6}",,-0.026205794548763484
+Regression,r2,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,2,1,[2],47,4,2,False,False,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}","{1.2611908912658691: 46, 1.261189341545105: 1}",,-0.03521235331468686
+Regression,r2,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,3,1,[3],48,4,2,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}","{1.1247262954711914: 42, 1.124726414680481: 6}",,-0.0671656759881274
+Regression,r2,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,0,1,[0],46,4,2,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}","{1.3654074668884275: 45, 1.3654060363769531: 1}",,-0.04480954089907274
+Regression,r2,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,1,1,[1],48,4,2,False,False,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}","{0.9645035862922668: 42, 0.9645037651062012: 6}",,-0.9006565079386972
+Regression,r2,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.2611908912658691: 48},,-0.011180983500988395
+Regression,r2,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,3,1,[3],48,4,3,False,False,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}","{1.1247262954711914: 44, 1.124726414680481: 3, 1.12472665309906: 1}",,-2.0005363965402978e-07
+Regression,r2,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,0,1,[0],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{1.3654074668884275: 23},,-0.5059125370009199
+Regression,r2,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{0.9645035862922668: 24},,-0.3176383389630366
+Regression,r2,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.2611908912658691: 24},,-0.029241258663535996
+Regression,r2,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,3,1,[3],24,3,3,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}","{1.1247262954711914: 17, 1.124726414680481: 6, 1.12472665309906: 1}",,-0.07466312666546315
+Regression,r2,val,SBSAT_STD,AhnRNN,all,0,1,[0],117,4,2,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}","{1.3654074668884275: 116, 1.3654060363769531: 1}",,-0.018319593551975988
+Regression,r2,val,SBSAT_STD,AhnRNN,all,1,1,[1],119,4,2,False,False,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}","{0.9645035862922668: 107, 0.9645037651062012: 12}",,-0.06049706973959901
+Regression,r2,val,SBSAT_STD,AhnRNN,all,2,1,[2],119,4,2,False,False,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}","{1.2611908912658691: 118, 1.261189341545105: 1}",,-0.0001193432217254653
+Regression,r2,val,SBSAT_STD,AhnRNN,all,3,1,[3],120,4,3,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}","{1.1247262954711914: 103, 1.124726414680481: 15, 1.12472665309906: 2}",,-0.023693231371915813
+Regression,r2,val,SBSAT_STD,AhnRNN,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,7,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{1.3654074668884275: 48, 1.2611908912658691: 46, 1.1247262954711914: 42, 0.9645035862922668: 41, 0.9645037651062012: 6, 1.124726414680481: 6, 1.261189341545105: 1}",,0.077935825188995
+Regression,r2,val,SBSAT_STD,AhnRNN,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,8,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.2611908912658691: 48, 1.3654074668884275: 45, 1.1247262954711914: 44, 0.9645035862922668: 42, 0.9645037651062012: 6, 1.124726414680481: 3, 1.3654060363769531: 1, 1.12472665309906: 1}",,-0.15980991170245407
+Regression,r2,val,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,6,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{0.9645035862922668: 24, 1.2611908912658691: 24, 1.3654074668884275: 23, 1.1247262954711914: 17, 1.124726414680481: 6, 1.12472665309906: 1}",,0.16969158105582127
+Regression,r2,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,0,1,[0],71,4,1,False,True,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{1.3654074668884275: 71},,-0.9026812003042199
+Regression,r2,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,1,1,[1],71,4,3,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}","{0.9645035862922668: 66, 0.9645037651062012: 4, 0.9644960165023804: 1}",,-0.3573837775825708
+Regression,r2,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.2611908912658691: 71},,-0.00011273462764749276
+Regression,r2,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,3,1,[3],72,4,4,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}","{1.1247262954711914: 55, 1.124726414680481: 15, 1.12472665309906: 1, 1.124726176261902: 1}",,-0.5144210683363637
+Regression,r2,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,0,1,[0],72,4,1,False,True,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{1.3654074668884275: 72},,-0.09840275903136053
+Regression,r2,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,1,1,[1],72,4,2,False,False,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}","{0.9645035862922668: 62, 0.9645037651062012: 10}",,-0.10292683556172944
+Regression,r2,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.2611908912658691: 72},,-0.0033699487816354345
+Regression,r2,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,3,1,[3],69,4,4,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}","{1.1247262954711914: 60, 1.124726414680481: 7, 1.12472665309906: 1, 1.124722599983215: 1}",,-8.104831511190902e-05
+Regression,r2,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.3654074668884275: 24},,-2.0897977830639864
+Regression,r2,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,1,1,[1],24,3,2,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}","{0.9645035862922668: 22, 0.9645037651062012: 2}",,-0.13375602035159528
+Regression,r2,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.2611908912658691: 24},,-0.002488247360452167
+Regression,r2,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,3,1,[3],23,3,3,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.1247262954711914: 20, 1.12472665309906: 2, 1.124726414680481: 1}",,-1.2580002445434881
+Regression,r2,test,SBSAT_STD,AhnRNN,all,0,1,[0],167,4,1,False,True,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{1.3654074668884275: 167},,-0.08514828825651577
+Regression,r2,test,SBSAT_STD,AhnRNN,all,1,1,[1],167,4,3,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}","{0.9645035862922668: 150, 0.9645037651062012: 16, 0.9644960165023804: 1}",,-0.19853548946279642
+Regression,r2,test,SBSAT_STD,AhnRNN,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.2611908912658691: 167},,-0.0002327089951283945
+Regression,r2,test,SBSAT_STD,AhnRNN,all,3,1,[3],164,4,5,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}","{1.1247262954711914: 135, 1.124726414680481: 23, 1.12472665309906: 4, 1.124726176261902: 1, 1.124722599983215: 1}",,-0.19408845521922768
+Regression,r2,test,SBSAT_STD,AhnRNN,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,9,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.3654074668884275: 71, 1.2611908912658691: 71, 0.9645035862922668: 66, 1.1247262954711914: 55, 1.124726414680481: 15, 0.9645037651062012: 4, 0.9644960165023804: 1, 1.12472665309906: 1, 1.124726176261902: 1}",,-0.1954583283586786
+Regression,r2,test,SBSAT_STD,AhnRNN,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,8,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.3654074668884275: 72, 1.2611908912658691: 72, 0.9645035862922668: 62, 1.1247262954711914: 60, 0.9645037651062012: 10, 1.124726414680481: 7, 1.12472665309906: 1, 1.124722599983215: 1}",,0.016865975626991214
+Regression,r2,test,SBSAT_STD,AhnRNN,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,7,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.3654074668884275: 24, 1.2611908912658691: 24, 0.9645035862922668: 22, 1.1247262954711914: 20, 0.9645037651062012: 2, 1.12472665309906: 2, 1.124726414680481: 1}",,-0.17660940483588705
+Regression,r2,val,SBSAT_STD,Roberta,seen_subject_unseen_item,0,1,[0],48,4,2,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}","{1.3837890625: 47, 1.384765625: 1}",,-0.03235182762146005
+Regression,r2,val,SBSAT_STD,Roberta,seen_subject_unseen_item,1,1,[1],47,4,1,False,True,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{1.220703125: 47},,-0.3744087485627754
+Regression,r2,val,SBSAT_STD,Roberta,seen_subject_unseen_item,2,1,[2],47,4,1,False,True,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{1.275390625: 47},,-0.028569233380374204
+Regression,r2,val,SBSAT_STD,Roberta,seen_subject_unseen_item,3,1,[3],48,4,2,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}","{1.1435546875: 44, 1.14453125: 4}",,-0.05292597176140834
+Regression,r2,val,SBSAT_STD,Roberta,unseen_subject_seen_item,0,1,[0],46,4,2,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}","{1.384765625: 44, 1.3837890625: 2}",,-0.05974790109581196
+Regression,r2,val,SBSAT_STD,Roberta,unseen_subject_seen_item,1,1,[1],48,4,1,False,True,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{1.220703125: 48},,-0.33745747227822576
+Regression,r2,val,SBSAT_STD,Roberta,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.275390625: 48},,-0.015905139912868682
+Regression,r2,val,SBSAT_STD,Roberta,unseen_subject_seen_item,3,1,[3],48,4,1,False,True,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{1.1435546875: 48},,-0.0007776596966910798
+Regression,r2,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,0,1,[0],23,3,2,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.3837890625: 21, 1.384765625: 2}",,-0.4620103678860512
+Regression,r2,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.220703125: 24},,-1.2706986114758405
+Regression,r2,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.275390625: 24},,-0.03868657892400562
+Regression,r2,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,3,1,[3],24,3,2,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}","{1.1435546875: 22, 1.14453125: 2}",,-0.05905201046965858
+Regression,r2,val,SBSAT_STD,Roberta,all,0,1,[0],117,4,2,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}","{1.3837890625: 70, 1.384765625: 47}",,-0.011678517655068443
+Regression,r2,val,SBSAT_STD,Roberta,all,1,1,[1],119,4,1,False,True,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{1.220703125: 119},,-0.011525062665547425
+Regression,r2,val,SBSAT_STD,Roberta,all,2,1,[2],119,4,1,False,True,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{1.275390625: 119},,-8.420884845339316e-05
+Regression,r2,val,SBSAT_STD,Roberta,all,3,1,[3],120,4,2,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}","{1.1435546875: 114, 1.14453125: 6}",,-0.01570234265933723
+Regression,r2,val,SBSAT_STD,Roberta,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,6,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{1.3837890625: 47, 1.220703125: 47, 1.275390625: 47, 1.1435546875: 44, 1.14453125: 4, 1.384765625: 1}",,0.028456347048790298
+Regression,r2,val,SBSAT_STD,Roberta,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,5,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.220703125: 48, 1.1435546875: 48, 1.275390625: 48, 1.384765625: 44, 1.3837890625: 2}",,-0.020750653837004585
+Regression,r2,val,SBSAT_STD,Roberta,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,6,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.275390625: 24, 1.220703125: 24, 1.1435546875: 22, 1.3837890625: 21, 1.384765625: 2, 1.14453125: 2}",,0.06929348238083033
+Regression,r2,test,SBSAT_STD,Roberta,seen_subject_unseen_item,0,1,[0],71,4,2,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}","{1.384765625: 70, 1.3837890625: 1}",,-0.9709687201434343
+Regression,r2,test,SBSAT_STD,Roberta,seen_subject_unseen_item,1,1,[1],71,4,2,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}","{1.220703125: 70, 1.2197265625: 1}",,-0.06395651693824345
+Regression,r2,test,SBSAT_STD,Roberta,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.275390625: 71},,-0.00016604091810146215
+Regression,r2,test,SBSAT_STD,Roberta,seen_subject_unseen_item,3,1,[3],72,4,2,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}","{1.1435546875: 70, 1.14453125: 2}",,-0.4752635763795583
+Regression,r2,test,SBSAT_STD,Roberta,unseen_subject_seen_item,0,1,[0],72,4,2,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}","{1.384765625: 47, 1.3837890625: 25}",,-0.08312090594454391
+Regression,r2,test,SBSAT_STD,Roberta,unseen_subject_seen_item,1,1,[1],72,4,1,False,True,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{1.220703125: 72},,-0.003554110119364351
+Regression,r2,test,SBSAT_STD,Roberta,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.275390625: 72},,-0.006273348037510562
+Regression,r2,test,SBSAT_STD,Roberta,unseen_subject_seen_item,3,1,[3],69,4,2,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}","{1.1435546875: 68, 1.14453125: 1}",,-0.00036675333976754487
+Regression,r2,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.384765625: 24},,-2.2147473247111344
+Regression,r2,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,1,1,[1],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.220703125: 24},,-0.009556163441051035
+Regression,r2,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.275390625: 24},,-0.0007097111191862737
+Regression,r2,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,3,1,[3],23,3,2,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.1435546875: 22, 1.14453125: 1}",,-1.1868124846573722
+Regression,r2,test,SBSAT_STD,Roberta,all,0,1,[0],167,4,2,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}","{1.384765625: 141, 1.3837890625: 26}",,-0.10128836857052326
+Regression,r2,test,SBSAT_STD,Roberta,all,1,1,[1],167,4,2,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}","{1.220703125: 166, 1.2197265625: 1}",,-0.006172955290696613
+Regression,r2,test,SBSAT_STD,Roberta,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.275390625: 167},,-0.0014137782247765074
+Regression,r2,test,SBSAT_STD,Roberta,all,3,1,[3],164,4,2,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}","{1.1435546875: 160, 1.14453125: 4}",,-0.17101520323005315
+Regression,r2,test,SBSAT_STD,Roberta,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,7,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.275390625: 71, 1.220703125: 70, 1.384765625: 70, 1.1435546875: 70, 1.14453125: 2, 1.3837890625: 1, 1.2197265625: 1}",,-0.11565737961874323
+Regression,r2,test,SBSAT_STD,Roberta,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,6,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.275390625: 72, 1.220703125: 72, 1.1435546875: 68, 1.384765625: 47, 1.3837890625: 25, 1.14453125: 1}",,0.043232703477603995
+Regression,r2,test,SBSAT_STD,Roberta,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,5,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.384765625: 24, 1.220703125: 24, 1.275390625: 24, 1.1435546875: 22, 1.14453125: 1}",,-0.15632047129098514
+Regression,r2,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,0,1,[0],48,4,2,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}","{1.443359375: 47, 1.4423828125: 1}",,-0.0076563358306884766
+Regression,r2,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,1,1,[1],47,4,1,False,True,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{1.1357421875: 47},,-0.21405237213859318
+Regression,r2,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,2,1,[2],47,4,1,False,True,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{1.236328125: 47},,-0.048514633535224894
+Regression,r2,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,3,1,[3],48,4,1,False,True,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{0.9365234375: 48},,-0.30397065613559127
+Regression,r2,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,0,1,[0],46,4,2,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}","{1.443359375: 43, 1.4423828125: 3}",,-0.11704893732767485
+Regression,r2,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,1,1,[1],48,4,1,False,True,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{1.1357421875: 48},,-0.4941898469002015
+Regression,r2,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.236328125: 48},,-0.004908993800267991
+Regression,r2,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,3,1,[3],48,4,1,False,True,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{0.9365234375: 48},,-0.0802411247702206
+Regression,r2,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,0,1,[0],23,3,2,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}","{1.443359375: 20, 1.4423828125: 3}",,-0.3344390208904564
+Regression,r2,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.1357421875: 24},,-0.884224515001313
+Regression,r2,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.236328125: 24},,-0.01588162508877833
+Regression,r2,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,3,1,[3],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{0.9365234375: 24},,-0.3379022642623548
+Regression,r2,val,SBSAT_STD,RoberteyeWord,all,0,1,[0],117,4,2,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}","{1.443359375: 110, 1.4423828125: 7}",,-0.0001378433735987894
+Regression,r2,val,SBSAT_STD,RoberteyeWord,all,1,1,[1],119,4,1,False,True,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{1.1357421875: 119},,-9.627538184586726e-05
+Regression,r2,val,SBSAT_STD,RoberteyeWord,all,2,1,[2],119,4,1,False,True,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{1.236328125: 119},,-0.002126593878529537
+Regression,r2,val,SBSAT_STD,RoberteyeWord,all,3,1,[3],120,4,1,False,True,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{0.9365234375: 120},,-0.19609714783344057
+Regression,r2,val,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,5,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{0.9365234375: 48, 1.443359375: 47, 1.1357421875: 47, 1.236328125: 47, 1.4423828125: 1}",,0.0005058139248260707
+Regression,r2,val,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,5,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.1357421875: 48, 0.9365234375: 48, 1.236328125: 48, 1.443359375: 43, 1.4423828125: 3}",,-0.08648418063564445
+Regression,r2,val,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,5,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.1357421875: 24, 0.9365234375: 24, 1.236328125: 24, 1.443359375: 20, 1.4423828125: 3}",,0.08316002860738425
+Regression,r2,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,0,1,[0],71,4,2,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}","{1.443359375: 66, 1.4423828125: 5}",,-1.1931075059547624
+Regression,r2,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,1,1,[1],71,4,1,False,True,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{1.1357421875: 71},,-0.13485569885308735
+Regression,r2,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.236328125: 71},,-0.002680175200752588
+Regression,r2,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,3,1,[3],72,4,1,False,True,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{0.9365234375: 72},,-0.9895449900787148
+Regression,r2,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,0,1,[0],72,4,2,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}","{1.443359375: 65, 1.4423828125: 7}",,-0.04349440207796351
+Regression,r2,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,1,1,[1],72,4,1,False,True,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{1.1357421875: 72},,-0.004428203133307829
+Regression,r2,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.236328125: 72},,-0.000441564272527728
+Regression,r2,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,3,1,[3],69,4,1,False,True,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{0.9365234375: 69},,-0.09324024170637135
+Regression,r2,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.443359375: 24},,-2.6150558856355044
+Regression,r2,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,1,1,[1],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.1357421875: 24},,-0.0031297857111149963
+Regression,r2,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.236328125: 24},,-0.008204260537790775
+Regression,r2,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,3,1,[3],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{0.9365234375: 23},,-2.0807147235660772
+Regression,r2,test,SBSAT_STD,RoberteyeWord,all,0,1,[0],167,4,2,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}","{1.443359375: 155, 1.4423828125: 12}",,-0.15780306087704177
+Regression,r2,test,SBSAT_STD,RoberteyeWord,all,1,1,[1],167,4,1,False,True,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{1.1357421875: 167},,-0.04007790552430546
+Regression,r2,test,SBSAT_STD,RoberteyeWord,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.236328125: 167},,-0.0005698027057816635
+Regression,r2,test,SBSAT_STD,RoberteyeWord,all,3,1,[3],164,4,1,False,True,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{0.9365234375: 164},,-0.5035032698206652
+Regression,r2,test,SBSAT_STD,RoberteyeWord,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,5,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{0.9365234375: 72, 1.236328125: 71, 1.1357421875: 71, 1.443359375: 66, 1.4423828125: 5}",,-0.28892429358594374
+Regression,r2,test,SBSAT_STD,RoberteyeWord,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,5,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.1357421875: 72, 1.236328125: 72, 0.9365234375: 69, 1.443359375: 65, 1.4423828125: 7}",,0.03713640369130211
+Regression,r2,test,SBSAT_STD,RoberteyeWord,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,4,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.443359375: 24, 1.1357421875: 24, 1.236328125: 24, 0.9365234375: 23}",,-0.36791135307851075
+Regression,r2,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,0,1,[0],48,4,32,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{'N unique: 32'},,-0.18648381233215328
+Regression,r2,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,1,1,[1],47,4,37,False,False,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{'N unique: 37'},,-0.10353995701454188
+Regression,r2,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,2,1,[2],47,4,44,False,False,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{'N unique: 44'},,-0.13128594965949625
+Regression,r2,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,3,1,[3],48,4,43,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{'N unique: 43'},,-0.0005488535350337553
+Regression,r2,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,0,1,[0],46,4,42,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}",{'N unique: 42'},,-0.04617792613319516
+Regression,r2,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,1,1,[1],48,4,47,False,False,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{'N unique: 47'},,-0.800318471847042
+Regression,r2,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,2,1,[2],48,4,45,False,False,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{'N unique: 45'},,0.24403339416667535
+Regression,r2,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,3,1,[3],48,4,44,False,False,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{'N unique: 44'},,0.1234172484453987
+Regression,r2,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,0,1,[0],23,3,21,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 21'},,-0.8854300373203157
+Regression,r2,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,1,1,[1],24,2,20,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 20'},,-0.5122692204323136
+Regression,r2,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,2,1,[2],24,3,22,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 22'},,-0.7906150384382766
+Regression,r2,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,3,1,[3],24,3,19,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 19'},,-0.0028642876203670564
+Regression,r2,val,SBSAT_STD,RoberteyeLate,all,0,1,[0],117,4,87,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}",{'N unique: 87'},,-0.1384566182950453
+Regression,r2,val,SBSAT_STD,RoberteyeLate,all,1,1,[1],119,4,86,False,False,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{'N unique: 86'},,-0.0574652925473913
+Regression,r2,val,SBSAT_STD,RoberteyeLate,all,2,1,[2],119,4,106,False,False,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{'N unique: 106'},,-0.03814229168457439
+Regression,r2,val,SBSAT_STD,RoberteyeLate,all,3,1,[3],120,4,103,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{'N unique: 103'},,0.06649044581821995
+Regression,r2,val,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,156,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}",{'N unique: 156'},,0.020749085162912295
+Regression,r2,val,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,173,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}",{'N unique: 173'},,-0.04086574285303568
+Regression,r2,val,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,81,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 81'},,-0.037937795800011775
+Regression,r2,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,0,1,[0],71,4,44,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{'N unique: 44'},,-0.6653520070686543
+Regression,r2,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,1,1,[1],71,4,65,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{'N unique: 65'},,-0.45054952532267345
+Regression,r2,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,2,1,[2],71,4,61,False,False,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{'N unique: 61'},,-0.17972203752268934
+Regression,r2,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,3,1,[3],72,4,57,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{'N unique: 57'},,-0.6746035070227294
+Regression,r2,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,0,1,[0],72,4,63,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{'N unique: 63'},,-0.18823265364042907
+Regression,r2,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,1,1,[1],72,4,60,False,False,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{'N unique: 60'},,-0.09475829620556064
+Regression,r2,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,2,1,[2],72,4,68,False,False,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{'N unique: 68'},,0.09647149745732153
+Regression,r2,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,3,1,[3],69,4,64,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{'N unique: 64'},,-0.08841633759439005
+Regression,r2,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,0,1,[0],24,2,18,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 18'},,-1.6332322449243373
+Regression,r2,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,1,1,[1],24,3,21,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 21'},,-0.23984559015794216
+Regression,r2,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,2,1,[2],24,3,23,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 23'},,-0.113431353901708
+Regression,r2,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,3,1,[3],23,3,22,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 22'},,-1.514337191214929
+Regression,r2,test,SBSAT_STD,RoberteyeLate,all,0,1,[0],167,4,99,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{'N unique: 99'},,-0.04366290663171024
+Regression,r2,test,SBSAT_STD,RoberteyeLate,all,1,1,[1],167,4,137,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{'N unique: 137'},,-0.2496752491441081
+Regression,r2,test,SBSAT_STD,RoberteyeLate,all,2,1,[2],167,4,141,False,False,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{'N unique: 141'},,-0.035958263298648596
+Regression,r2,test,SBSAT_STD,RoberteyeLate,all,3,1,[3],164,4,134,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{'N unique: 134'},,-0.31606679577455443
+Regression,r2,test,SBSAT_STD,RoberteyeLate,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,226,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 226'},,-0.25569452241080803
+Regression,r2,test,SBSAT_STD,RoberteyeLate,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,239,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 239'},,-0.0006300072723717243
+Regression,r2,test,SBSAT_STD,RoberteyeLate,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,84,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 84'},,-0.21241985493951043
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,0,1,[0],48,4,48,False,False,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{'N unique: 48'},,-0.3662793639425779
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,1,1,[1],47,4,47,False,False,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{'N unique: 47'},,-0.39853307140043603
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,2,1,[2],47,4,47,False,False,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{'N unique: 47'},,-0.4168263180521987
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,3,1,[3],48,4,48,False,False,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{'N unique: 48'},,-0.2936693652900044
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,0,1,[0],46,4,46,False,False,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}",{'N unique: 46'},,-0.08836927627679136
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,1,1,[1],48,4,48,False,False,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{'N unique: 48'},,-0.439412830737713
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,2,1,[2],48,4,48,False,False,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{'N unique: 48'},,-0.08475138206757693
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,3,1,[3],48,4,48,False,False,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{'N unique: 48'},,-0.01792658030986316
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],23,3,23,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 23'},,-1.2509523436391277
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,2,24,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 24'},,-1.2628754040554928
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,24,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 24'},,-0.0767519601132407
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],24,3,24,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 24'},,-0.2534122289835179
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,0,1,[0],117,4,117,False,False,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}",{'N unique: 117'},,-0.284991545385721
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,1,1,[1],119,4,119,False,False,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{'N unique: 119'},,-0.05466269011561864
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,2,1,[2],119,4,119,False,False,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{'N unique: 119'},,-0.21038787257290648
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,all,3,1,[3],120,4,120,False,False,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{'N unique: 120'},,-0.1512028651596371
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,190,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}",{'N unique: 190'},,-0.2121137324073339
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,190,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}",{'N unique: 190'},,-0.0733042137579325
+Regression,r2,val,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,95,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 95'},,-0.12239469835528105
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,0,1,[0],71,4,71,False,False,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{'N unique: 71'},,-0.4394957767257206
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,1,1,[1],71,4,71,False,False,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{'N unique: 71'},,-0.15483719030519127
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,2,1,[2],71,4,71,False,False,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{'N unique: 71'},,-0.40543154764307965
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,3,1,[3],72,4,72,False,False,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{'N unique: 72'},,-0.9473975681146838
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,0,1,[0],72,4,72,False,False,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{'N unique: 72'},,-0.4313752605614194
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,1,1,[1],72,4,72,False,False,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{'N unique: 72'},,-0.03999277632179976
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,2,1,[2],72,4,72,False,False,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{'N unique: 72'},,-0.03577843678243564
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,3,1,[3],69,4,69,False,False,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{'N unique: 69'},,-0.0652901066956264
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],24,2,24,False,False,"{1.0: 17, 0.0: 7}",{'N unique: 24'},,-0.7587504014661621
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,3,24,False,False,"{1.0: 16, 2.0: 6, 0.0: 2}",{'N unique: 24'},,-0.24236930210367413
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,24,False,False,"{1.0: 13, 2.0: 9, 0.0: 2}",{'N unique: 24'},,-0.26981808023040554
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],23,3,23,False,False,"{2.0: 14, 1.0: 7, 3.0: 2}",{'N unique: 23'},,-1.908582859456295
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,0,1,[0],167,4,167,False,False,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{'N unique: 167'},,-0.048204740835813054
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,1,1,[1],167,4,167,False,False,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{'N unique: 167'},,-0.0855483231627141
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,2,1,[2],167,4,167,False,False,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{'N unique: 167'},,-0.20709713019886
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,all,3,1,[3],164,4,164,False,False,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{'N unique: 164'},,-0.4594554116942269
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,285,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 285'},,-0.24508385528278587
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,285,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}",{'N unique: 285'},,-0.0810591780626313
+Regression,r2,test,SBSAT_STD,SupportVectorRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,95,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}",{'N unique: 95'},,-0.2171554577406254
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,0,1,[0],48,4,1,False,True,"{1.0: 22, 2.0: 22, 3.0: 2, 0.0: 2}",{1.2604166269302368: 48},,-0.13776046236356487
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,1,1,[1],47,4,1,False,True,"{1.0: 34, 0.0: 10, 2.0: 2, 3.0: 1}",{1.4255318641662598: 47},,-0.9441339050591402
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,2,1,[2],47,4,1,False,True,"{1.0: 24, 2.0: 15, 0.0: 4, 3.0: 4}",{1.308510661125183: 47},,-0.01577102051717194
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,3,1,[3],48,4,1,False,True,"{1.0: 27, 2.0: 16, 0.0: 4, 3.0: 1}",{1.0520833730697632: 48},,-0.1383367741955912
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,0,1,[0],46,4,1,False,True,"{1.0: 30, 2.0: 12, 0.0: 3, 3.0: 1}",{1.2604166269302368: 46},,-0.001273258674003186
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,1,1,[1],48,4,1,False,True,"{2.0: 24, 1.0: 18, 3.0: 4, 0.0: 2}",{1.4255318641662598: 48},,-0.08214201231068374
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,2,1,[2],48,4,1,False,True,"{1.0: 26, 2.0: 14, 0.0: 7, 3.0: 1}",{1.308510661125183: 48},,-0.030150856625663858
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,3,1,[3],48,4,1,False,True,"{1.0: 32, 2.0: 8, 0.0: 6, 3.0: 2}",{1.0520833730697632: 48},,-0.012009790831924771
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{1.2604166269302368: 23},,-0.7925831343983243
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.4255318641662598: 24},,-2.4897417646575724
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.308510661125183: 24},,-0.0658463523183741
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.0520833730697632: 24},,-0.15377901875695965
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,all,0,1,[0],117,4,1,False,True,"{1.0: 59, 2.0: 48, 3.0: 5, 0.0: 5}",{1.2604166269302368: 117},,-0.08856549826681737
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,all,1,1,[1],119,4,1,False,True,"{1.0: 69, 2.0: 26, 0.0: 19, 3.0: 5}",{1.4255318641662598: 119},,-0.15196544152960434
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,all,2,1,[2],119,4,1,False,True,"{1.0: 66, 2.0: 35, 0.0: 13, 3.0: 5}",{1.308510661125183: 119},,-0.0031423583154588375
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,all,3,1,[3],120,4,1,False,True,"{1.0: 72, 2.0: 33, 0.0: 12, 3.0: 3}",{1.0520833730697632: 120},,-0.07045693047170709
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",190,4,4,False,False,"{1.0: 107, 2.0: 55, 0.0: 20, 3.0: 8}","{1.2604166269302368: 48, 1.0520833730697632: 48, 1.4255318641662598: 47, 1.308510661125183: 47}",,-0.1016345724894574
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",190,4,4,False,False,"{1.0: 106, 2.0: 58, 0.0: 18, 3.0: 8}","{1.4255318641662598: 48, 1.308510661125183: 48, 1.0520833730697632: 48, 1.2604166269302368: 46}",,0.0483517128964277
+Regression,r2,val,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,4,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.4255318641662598: 24, 1.308510661125183: 24, 1.0520833730697632: 24, 1.2604166269302368: 23}",,-0.15697308839098434
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,0,1,[0],71,4,1,False,True,"{1.0: 51, 0.0: 16, 2.0: 3, 3.0: 1}",{1.2604166269302368: 71},,-0.5751556605664625
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,1,1,[1],71,4,1,False,True,"{1.0: 38, 2.0: 22, 3.0: 6, 0.0: 5}",{1.4255318641662598: 71},,-0.0005290620617464104
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,2,1,[2],71,4,1,False,True,"{1.0: 43, 2.0: 22, 0.0: 5, 3.0: 1}",{1.308510661125183: 71},,-0.004584080637439092
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,3,1,[3],72,4,1,False,True,"{2.0: 37, 1.0: 27, 3.0: 5, 0.0: 3}",{1.0520833730697632: 72},,-0.6795563211777098
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,0,1,[0],72,4,1,False,True,"{2.0: 33, 1.0: 28, 3.0: 7, 0.0: 4}",{1.2604166269302368: 72},,-0.20772258522063636
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,1,1,[1],72,4,1,False,True,"{1.0: 40, 2.0: 21, 0.0: 10, 3.0: 1}",{1.4255318641662598: 72},,-0.13233067757986072
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,2,1,[2],72,4,1,False,True,"{1.0: 45, 2.0: 17, 0.0: 7, 3.0: 3}",{1.308510661125183: 72},,-0.01652332245898913
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,3,1,[3],69,4,1,False,True,"{1.0: 46, 2.0: 13, 0.0: 8, 3.0: 2}",{1.0520833730697632: 69},,-0.01522266115450388
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,0,1,[0],24,2,1,False,True,"{1.0: 17, 0.0: 7}",{1.2604166269302368: 24},,-1.4753149136775758
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,1,1,[1],24,3,1,False,True,"{1.0: 16, 2.0: 6, 0.0: 2}",{1.4255318641662598: 24},,-0.2193093506503745
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,2,1,[2],24,3,1,False,True,"{1.0: 13, 2.0: 9, 0.0: 2}",{1.308510661125183: 24},,-0.0007601060744535371
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,3,1,[3],23,3,1,False,True,"{2.0: 14, 1.0: 7, 3.0: 2}",{1.0520833730697632: 23},,-1.5511537012536136
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,all,0,1,[0],167,4,1,False,True,"{1.0: 96, 2.0: 36, 0.0: 27, 3.0: 8}",{1.2604166269302368: 167},,-0.02243205029180939
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,all,1,1,[1],167,4,1,False,True,"{1.0: 94, 2.0: 49, 0.0: 17, 3.0: 7}",{1.4255318641662598: 167},,-0.04625203496897479
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,all,2,1,[2],167,4,1,False,True,"{1.0: 101, 2.0: 48, 0.0: 14, 3.0: 4}",{1.308510661125183: 167},,-0.0080496164629702
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,all,3,1,[3],164,4,1,False,True,"{1.0: 80, 2.0: 64, 0.0: 11, 3.0: 9}",{1.0520833730697632: 164},,-0.29636424741503276
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,seen_subject_unseen_item,all,4,"[0, 1, 2, 3]",285,4,4,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.0520833730697632: 72, 1.2604166269302368: 71, 1.4255318641662598: 71, 1.308510661125183: 71}",,-0.08724621110583142
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_seen_item,all,4,"[0, 1, 2, 3]",285,4,4,False,False,"{1.0: 159, 2.0: 84, 0.0: 29, 3.0: 13}","{1.2604166269302368: 72, 1.4255318641662598: 72, 1.308510661125183: 72, 1.0520833730697632: 69}",,-0.02614461011128233
+Regression,r2,test,SBSAT_STD,DummyRegressorMLArgs,unseen_subject_unseen_item,all,4,"[0, 1, 2, 3]",95,4,4,False,False,"{1.0: 53, 2.0: 29, 0.0: 11, 3.0: 2}","{1.2604166269302368: 24, 1.4255318641662598: 24, 1.308510661125183: 24, 1.0520833730697632: 23}",,-0.17392523479136823

@@ -1,0 +1,5 @@
+fold,best_val_loss,checkpoint
+0,0.4655,"outputs/+data=SBSAT_STD,+model=RoberteyeResidualGatedArgs,+trainer=TrainerDL,model.accumulate_grad_batches=8,model.batch_size=2,trainer.overwrite_data=True,trainer.run_mode=TRAIN,trainer.wandb_job_type=train/fold_index=0/00-lowest_loss_val_all-0.4655.ckpt"
+1,0.5371,"outputs/+data=SBSAT_STD,+model=RoberteyeResidualGatedArgs,+trainer=TrainerDL,model.accumulate_grad_batches=8,model.batch_size=2,trainer.overwrite_data=True,trainer.run_mode=TRAIN,trainer.wandb_job_type=train/fold_index=1/01-lowest_loss_val_all-0.5371.ckpt"
+2,0.4393,"outputs/+data=SBSAT_STD,+model=RoberteyeResidualGatedArgs,+trainer=TrainerDL,model.accumulate_grad_batches=8,model.batch_size=2,trainer.overwrite_data=True,trainer.run_mode=TRAIN,trainer.wandb_job_type=train/fold_index=2/03-lowest_loss_val_all-0.4393.ckpt"
+3,0.4033,"outputs/+data=SBSAT_STD,+model=RoberteyeResidualGatedArgs,+trainer=TrainerDL,model.accumulate_grad_batches=8,model.batch_size=2,trainer.overwrite_data=True,trainer.run_mode=TRAIN,trainer.wandb_job_type=train/fold_index=3/00-lowest_loss_val_all-0.4033.ckpt"
