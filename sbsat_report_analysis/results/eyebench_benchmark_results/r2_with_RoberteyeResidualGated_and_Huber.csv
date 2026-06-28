@@ -1,0 +1,17 @@
+Eval Type,Data,Model,Seen subject unseen item,Unseen subject seen item,Unseen subject unseen item,All
+val,SBSAT_STD,AhnRNN,-0.04 ± 0.0,-0.24 ± 0.2,-0.23 ± 0.1,-0.03 ± 0.0
+val,SBSAT_STD,DummyRegressorMLArgs,-0.31 ± 0.2,-0.03 ± 0.0,-0.88 ± 0.5,-0.08 ± 0.0
+val,SBSAT_STD,Roberta,-0.12 ± 0.1,-0.1 ± 0.1,-0.46 ± 0.2,-0.01 ± 0.0
+val,SBSAT_STD,RoberteyeLate,-0.11 ± 0.0,-0.12 ± 0.2,-0.55 ± 0.2,-0.04 ± 0.0
+val,SBSAT_STD,RoberteyeWord,-0.14 ± 0.1,-0.17 ± 0.1,-0.39 ± 0.2,-0.05 ± 0.0
+val,SBSAT_STD,SupportVectorRegressorMLArgs,-0.37 ± 0.0,-0.16 ± 0.1,-0.71 ± 0.3,-0.18 ± 0.0
+test,SBSAT_STD,AhnRNN,-0.44 ± 0.2,-0.05 ± 0.0,-0.87 ± 0.4,-0.12 ± 0.0
+test,SBSAT_STD,DummyRegressorMLArgs,-0.31 ± 0.2,-0.09 ± 0.0,-0.81 ± 0.4,-0.09 ± 0.1
+test,SBSAT_STD,Roberta,-0.38 ± 0.2,-0.02 ± 0.0,-0.85 ± 0.5,-0.07 ± 0.0
+test,SBSAT_STD,RoberteyeLate,-0.49 ± 0.1,-0.07 ± 0.1,-0.88 ± 0.4,-0.16 ± 0.1
+test,SBSAT_STD,RoberteyeWord,-0.58 ± 0.3,-0.04 ± 0.0,-1.18 ± 0.6,-0.18 ± 0.1
+test,SBSAT_STD,SupportVectorRegressorMLArgs,-0.49 ± 0.1,-0.14 ± 0.1,-0.79 ± 0.3,-0.2 ± 0.1
+val,SBSAT_STD,RoberteyeResidualGated,-0.13 ± 0.09,-0.04 ± 0.15,-0.48 ± 0.30,0.01 ± 0.05
+test,SBSAT_STD,RoberteyeResidualGated,-0.42 ± 0.20,0.00 ± 0.05,-0.92 ± 0.50,-0.08 ± 0.05
+val,SBSAT_STD,RoberteyeResidualGatedHuber,-0.18 ± 0.12,0.00 ± 0.14,-0.59 ± 0.37,0.00 ± 0.05
+test,SBSAT_STD,RoberteyeResidualGatedHuber,-0.45 ± 0.22,0.01 ± 0.05,-0.98 ± 0.53,-0.10 ± 0.08
